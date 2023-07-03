@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Viga&display=swap');
+select {
+    width: 100%;
+    border: 1px solid;
+    border-radius: 05px;
+    box-shadow: 1px 1px 2px 1px grey;
+    padding: 10px 15px 10px;
+}
+
+.navbar-brand {
+    font-family: sans-serif;
+    font-size: 32px;
+}
+
+.jumbotron {
+    background-image: url(1209573.jpg);
+    background-size: cover;
+    height: 900px;
+    text-align: center;
+}
+
+.login {
+    padding: 10px 16px;
+    font-size: 18px;
+}
+
+.jumbotron .display-4 {
+    color: white;
+    margin-top: 150px;
+    font-weight: 200px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.9);
+    font-size: 62px;
+    margin-bottom: 30px;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 52%, rgba(0, 212, 255, 1) 100%);
+}
+
+.content {
+    margin: 8%;
+    background-color: #fff;
+    padding: 4rem 1rem 4rem 1rem;
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, .05);
+}
+
+.signin-text {
+    font-style: normal;
+    font-weight: 600;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    border-color: #00ac96;
+    border-style: solid;
+    border-width: 0 0 1px 0;
+    padding: 0px;
+    color: #496057;
+    height: auto;
+    border-radius: 0;
+    background-color: #fff;
+    padding-bottom: 20px;
+}
+
+@media (min-width: 992px) {
+    .nav-link {
+        text-transform: uppercase;
+        margin-right: 30px;
+        font-family: Viga;
+    }
+    .nav-link:hover {
+        border-bottom: 3px solid #0b63dc;
+        margin-bottom: -3px;
+    }
+}
